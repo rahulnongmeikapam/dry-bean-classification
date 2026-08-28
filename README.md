@@ -11,6 +11,7 @@ an interactive Streamlit web application.
 
 Try the deployed application:
 https://dry-bean-classification123.streamlit.app/
+--
 
 📌 Project Overview
 
@@ -25,6 +26,7 @@ while reducing the number of input features.
 The final model uses all 16 geometric features with a Support
 Vector Classifier (SVC) and achieved an accuracy of 92.73% on the
 test dataset.
+--
 
 🎯 Objectives
 
@@ -47,6 +49,7 @@ Save the best-performing model and scaler.
 Develop an interactive Streamlit application.
 
 Deploy the application for public access.
+--
 
 📊 Dataset
 
@@ -109,6 +112,7 @@ Shape Factor 3
 Shape Factor 4
 
 Dataset source: UCI Machine Learning Repository --- Dry Bean Dataset.
+--
 
 🧠 Methodology
 
@@ -145,6 +149,7 @@ Model & Scaler Serialization
 Streamlit Application
    ↓
 Cloud Deployment
+--
 
 🤖 Machine Learning Model
 
@@ -160,6 +165,7 @@ SVC(C=10, gamma=0.1)
 
 The model was trained using standardized feature values with
 StandardScaler.
+--
 
 📈 Experimental Results
 
@@ -198,6 +204,7 @@ performance among the tested feature-selection approaches.
 
 Interestingly, PCA reduced the representation to 10 components while
 maintaining the same 92.73% accuracy.
+--
 
 🔍 Classification Performance
 
@@ -219,6 +226,7 @@ SIRA                0.88     0.87       0.87
 The most frequent observed misclassification was:
 
 SIRA → DERMASON: 51 cases
+--
 
 🖥️ Streamlit Application
 
@@ -247,6 +255,7 @@ Responsive two-column interface
 Live Application
 
 https://dry-bean-classification123.streamlit.app/
+--
 
 🛠️ Technologies Used
 
@@ -297,6 +306,7 @@ Visual Studio Code
 Git
 
 GitHub
+--
 
 📁 Project Structure
 
@@ -319,6 +329,8 @@ dry-bean-classification/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+--
+
 
 ⚙️ Installation & Local Setup
 
@@ -346,6 +358,7 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 
 The application will open in your browser.
+--
 
 📦 Model Files
 
@@ -356,6 +369,8 @@ models/scaler.pkl
 
 The Streamlit application loads these files and uses them to transform
 user input and generate predictions.
+--
+
 
 📚 Research & Learning Outcomes
 
@@ -384,6 +399,8 @@ Streamlit application development
 Git/GitHub version control
 
 Cloud deployment
+--
+
 
 🔮 Future Improvements
 
@@ -406,6 +423,7 @@ Add automated model retraining.
 Improve the UI with richer visualizations.
 
 Add image-based dry bean classification using computer vision.
+--
 
 👨‍💻 Author
 
@@ -414,6 +432,7 @@ Rahul Nongmeikapam
 Computer Science Engineering --- Artificial Intelligence
 
 GitHub: https://github.com/rahulnongmeikapam
+--
 
 ⭐ Acknowledgement
 
