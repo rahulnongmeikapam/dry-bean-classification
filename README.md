@@ -5,6 +5,7 @@ varieties of dry beans using 16 geometric measurements. The project
 compares multiple feature selection and dimensionality reduction
 techniques and deploys the final Support Vector Machine (SVM) model as
 an interactive Streamlit web application.
+--
 
 🚀 Live Demo
 
