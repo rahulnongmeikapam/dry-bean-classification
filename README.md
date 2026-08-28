@@ -8,7 +8,7 @@ A machine learning project that classifies 7 varieties of dry beans using 16 geo
 
 🌱 Try the Application
 
-Open the Live Streamlit Application
+[Open the Live Streamlit Application](https://dry-bean-classification123.streamlit.app/)
 
 The deployed application allows users to enter the geometric measurements of a dry bean and receive a predicted bean variety.
 
