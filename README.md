@@ -6,6 +6,7 @@ Machine Learning-Based Classification of Dry Bean Varieties Using Geometric Meas
 A machine learning project that classifies 7 varieties of dry beans using 16 geometric measurements extracted from bean images. Multiple feature selection and dimensionality reduction techniques are evaluated and compared with a Support Vector Machine (SVM) classifier.
 
 🚀 Live Demo
+--
 
 🌱 Try the Application
 
@@ -14,6 +15,7 @@ A machine learning project that classifies 7 varieties of dry beans using 16 geo
 The deployed application allows users to enter the geometric measurements of a dry bean and receive a predicted bean variety.
 
 📌 Table of Contents
+--
 
 Project Overview
 
