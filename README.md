@@ -56,6 +56,7 @@ Conclusion
 Author
 
 📖 Project Overview
+--
 
 Dry beans are an important agricultural crop with several varieties that can have similar physical characteristics. Manual classification can be time-consuming and may be affected by human judgment.
 
@@ -66,6 +67,7 @@ The system uses geometric measurements of bean samples as input and predicts one
 The project also investigates whether reducing the number of input features can maintain or improve classification performance.
 
 🎯 Objectives
+--
 
 The main objectives of this project are:
 
@@ -90,6 +92,7 @@ Save the trained model and feature scaler.
 Develop and deploy an interactive Streamlit application.
 
 📊 Dataset
+--
 
 The project uses the Dry Bean Dataset from the UCI Machine Learning Repository.
 
@@ -106,6 +109,7 @@ https://archive.ics.uci.edu/dataset/602/dry+bean+dataset
 The dataset contains geometric measurements extracted from images of dry bean grains.
 
 🌱 Bean Classes
+--
 
 The dataset contains seven different bean varieties:
 
@@ -142,6 +146,7 @@ SIRA
 Dry bean variety
 
 📐 Features
+--
 
 The classification system uses the following 16 geometric features:
 
@@ -262,6 +267,7 @@ The overall workflow of the project is:
                     Deployment
 
 🤖 Machine Learning Model
+--
 
 The final classifier is a Support Vector Machine (SVM).
 
@@ -276,6 +282,7 @@ StandardScaler()
 The trained model and scaler are saved using joblib.
 
 📈 Experimental Results
+--
 
 Baseline — All 16 Features
 
@@ -428,6 +435,7 @@ Training Time
 0.5045 sec
 
 📊 Overall Comparison
+--
 
 Method
 
@@ -490,6 +498,7 @@ PCA
 0.5045 s
 
 🏆 Best Result
+--
 
 The All Features SVM and PCA-based SVM achieved the highest accuracy of:
 
@@ -498,6 +507,7 @@ The All Features SVM and PCA-based SVM achieved the highest accuracy of:
 The baseline model using all 16 original features was selected as the final model because it provides excellent performance while retaining the original feature representation.
 
 📋 Classification Report
+--
 
 The final SVM model achieved an overall accuracy of approximately 93% on the test set.
 
@@ -592,6 +602,7 @@ Overall Accuracy
 2723
 
 🔎 Error Analysis
+--
 
 The confusion matrix was analyzed to identify the most common classification error.
 
@@ -606,10 +617,12 @@ This indicates that SIRA and DERMASON have relatively similar geometric characte
 Error analysis can help identify areas where additional features or more advanced models could improve performance.
 
 🖥️ Streamlit Application
+--
 
 An interactive web application was developed using Streamlit.
 
 Application Features
+--
 
 🌱 User-friendly interface
 
@@ -627,11 +640,8 @@ Application Features
 
 ☁️ Cloud deployment
 
-Live Application
-
-https://dry-bean-classification123.streamlit.app/
-
 📁 Project Structure
+--
 
 Dry_Bean_Classification/
 │
@@ -708,7 +718,7 @@ Git
 GitHub
 
 ⚙️ Installation
-
+--
 1. Clone the Repository
 
 git clone https://github.com/rahulnongmeikapam/dry-bean-classification.git
@@ -737,6 +747,7 @@ python -m streamlit run app.py
 The application will open in your browser.
 
 🧪 How to Use
+--
 
 Open the Streamlit application.
 
@@ -749,7 +760,7 @@ The trained SVM model processes the input.
 The application displays the predicted bean variety.
 
 📌 Example Prediction
-
+--
 The model accepts measurements such as:
 
 Area
@@ -780,7 +791,7 @@ SEKER
 SIRA
 
 🔮 Future Improvements
-
+--
 Possible future improvements include:
 
 Hyperparameter optimization using GridSearchCV or RandomizedSearchCV
@@ -804,7 +815,7 @@ Adding automated testing
 Containerizing the application with Docker
 
 ✅ Conclusion
-
+--
 This project demonstrates how statistical pattern recognition and machine learning can be applied to classify dry bean varieties using geometric measurements.
 
 The final SVM classifier achieved 92.73% accuracy using all 16 features. PCA achieved the same accuracy with 10 components, while the feature-selection techniques reduced accuracy slightly.
@@ -812,7 +823,7 @@ The final SVM classifier achieved 92.73% accuracy using all 16 features. PCA ach
 The trained model was integrated into an interactive Streamlit application and deployed online, allowing users to perform real-time dry bean variety classification.
 
 👨‍💻 Author
-
+--
 Rahul Nongmeikapam
 
 Computer Science Engineering — Artificial Intelligence
@@ -822,7 +833,7 @@ Project
 Dry Bean Classification using Machine Learning
 
 ⭐ Acknowledgements
-
+--
 UCI Machine Learning Repository for providing the Dry Bean Dataset.
 
 Scikit-learn for machine learning algorithms and evaluation tools.
