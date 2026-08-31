@@ -664,6 +664,7 @@ Dry_Bean_Classification/
 └── .gitignore
 
 🛠️ Technologies Used
+--
 
 Programming Language
 
