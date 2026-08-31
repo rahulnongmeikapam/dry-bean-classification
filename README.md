@@ -842,5 +842,6 @@ Scikit-learn for machine learning algorithms and evaluation tools.
 Streamlit for application development and deployment.
 
 📄 License
+--
 
 This project is intended for educational and academic purposes.
